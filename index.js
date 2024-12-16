@@ -22,7 +22,7 @@ const client = new MongoClient(uri, {
 
 async function run() {
   try {
-    const db = client.db("solo-db");
+    const db = client.db("soloData");
     const jobsCollection = db.collection("jobs");
 
     // save a jobData in db
